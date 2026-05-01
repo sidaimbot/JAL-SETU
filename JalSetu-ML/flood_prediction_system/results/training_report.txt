@@ -1,0 +1,44 @@
+FLOOD RISK PREDICTION - TRAINING REPORT
+============================================================
+
+Dataset Information:
+- Total Samples: 1000
+- Train Set: 800
+- Test Set: 200
+- Encoded Features: 23
+
+Class Distribution (Train):
+  - No Flood: 424 (53.0%)
+  - Flood: 376 (47.0%)
+
+Best Model: RANDOM_FOREST
+F1-Score: 1.0000
+Accuracy: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+ROC-AUC: 1.0000
+
+Model Comparison:
+                                accuracy   precision      recall          f1     roc_auc
+logistic_regression                0.985       0.979       0.989       0.984       0.999
+random_forest                      1.000       1.000       1.000       1.000       1.000
+xgboost                            1.000       1.000       1.000       1.000       1.000
+
+Top 10 Features:
+- flood_probability: 0.449968
+- distance_from_river: 0.183291
+- ultrasonic_distance: 0.058628
+- historical_flood_freq: 0.056543
+- water_level: 0.043343
+- elevation: 0.042518
+- location_id: 0.025909
+- humidity: 0.023525
+- river_discharge: 0.023120
+- rainfall_accumulation_24h: 0.016455
+
+Files Generated:
+- results\class_distribution.png
+- results\confusion_matrix.png
+- results\model_comparison.png
+- results\training_report.txt
+- results\feature_importance.png
