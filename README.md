@@ -248,7 +248,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support & Contact
 
-- 📧 Email: [contact@jalsetu.com] *(update with your email)*
+- 📧 Email: [contact@jalsetu.com] 
 - 🐙 GitHub: [@sidaimbot](https://github.com/sidaimbot)
 - 📝 Issues: [Report here](https://github.com/sidaimbot/JAL-SETU/issues)
 
